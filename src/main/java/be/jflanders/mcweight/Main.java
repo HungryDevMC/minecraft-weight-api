@@ -1,11 +1,14 @@
 package be.jflanders.mcweight;
 
+import be.jflanders.mcweight.frameworks.ConfigurationFile;
+import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
 
 public final class Main extends JavaPlugin {
 
+    @Getter
     private static Main instance;
 
     @Override

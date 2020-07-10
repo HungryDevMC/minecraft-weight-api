@@ -1,4 +1,4 @@
-package be.jflanders.mcweight;
+package be.jflanders.mcweight.frameworks;
 
 import be.jflanders.mcweight.Main;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,8 @@ import java.io.IOException;
 @AllArgsConstructor
 public enum ConfigurationFile {
 
-    CONFIG("config.yml");
+    CONFIG("config.yml"),
+    WEIGHT("weight.yml");
 
     @Getter
     private String path;
