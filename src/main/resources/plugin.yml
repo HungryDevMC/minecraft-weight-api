@@ -2,5 +2,5 @@ name: Weight
 version: ${project.version}
 main: be.jflanders.mcweight.Main
 api-version: 1.16
-authors: [JFlanders]
+authors: [JFlanders, HungryDev]
 description: A Plugin that provides Weight values to Minecraft Items and Players.

@@ -17,7 +17,7 @@ public final class Main extends JavaPlugin {
             ConfigurationFile.createDefaults();
         } catch (IOException ioException) {
             ioException.printStackTrace();
-            Main.getInstance().getServer().shutdown();
+            getInstance().getServer().shutdown();
         }
 
     }

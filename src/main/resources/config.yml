@@ -1,0 +1,9 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      WeightAPI                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Unit of measurement:
+#You can choose what the suffix of the Weight measurement should be. The standard value is 'Kg'. Feel free to use any type you like.
+unit-of-measurement: "Kg"
